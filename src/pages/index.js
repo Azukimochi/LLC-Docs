@@ -14,10 +14,15 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+        <Link
+            className="button button--secondary button--lg"
+            to="vcc://vpm/addRepo?url=https://azukimochi.github.io/vpm-repos/index.json">
+            ダウンロード(VCC) ⏱️
+          </Link>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            説明書 ⏱️
           </Link>
         </div>
       </div>

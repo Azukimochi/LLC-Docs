@@ -4,32 +4,30 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'MA前提ツール',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        非破壊で明るさ調節メニューが追加できる！
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '簡単導入',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        ウインドウを開いてアバターをセットして生成ボタンを押すだけ！
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '多機能',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        色温度・彩度調節機能（上級者向け）を搭載
+        写真撮影に最適！
       </>
     ),
   },

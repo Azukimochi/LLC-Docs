@@ -42,18 +42,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ({
       navbar: {
         title: 'Light Limit Changer',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        //logo: {
+        //  alt: 'My Site Logo',
+        //  src: 'img/logo.svg',
+        //},
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '説明書',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
             label: 'GitHub',
@@ -64,30 +63,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       footer: {
         style: 'dark',
         links: [
+          
           {
-            title: 'Docs',
-            items: [
-              {
-                label: '説明書',
-                to: '/docs/intro',
-              },
-            ],
+            label: 'Github',
+            href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Github',
-                href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
-              },
-              {
-                label: 'X',
-                href: 'https://twitter.com/azukimochi25',
-              },
-            ],
+            label: 'X',
+            href: 'https://twitter.com/azukimochi25',
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Azukimochi25, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
