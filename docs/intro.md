@@ -2,34 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Lght Limit Changer
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Light Limit Changer For MA は、Modular Avaterを前提としてアバターに非破壊でライティングの調節アニメーションを追加するツールです。
 
-## Getting Started
+## 導入方法
 
-Get started by **creating a new site**.
+VCCから導入を行います。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+こちらのリンクから導入できます **[VCC Repo](vcc://vpm/addRepo?url=https://azukimochi.github.io/vpm-repos/index.json)**
 
-## Generate a new site
+導入後、プロジェクトのManageProjectを開き、Light Limit Changerの＋ボタンをクリックしてください
 
-Generate a new Docusaurus site using the **classic template**:
+![Vcc](/img/docs/intro/vcc_1.png)
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+## 使い方
 
-## Start your site
+[解説はこちら](/docs/howtouse/howtouse-basic)
 
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+## 更新履歴
