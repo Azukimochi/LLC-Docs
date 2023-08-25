@@ -63,14 +63,27 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       footer: {
         style: 'dark',
         links: [
-          
           {
-            label: 'Github',
-            href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
+            title: 'ドキュメント',
+            items: [
+              {
+                label: '説明書',
+                to: '/docs/intro',
+              },
+            ],
           },
           {
-            label: 'X',
-            href: 'https://twitter.com/azukimochi25',
+            title: 'リンク',
+            items: [
+              {
+                label: 'Github',
+                href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
+              },
+              {
+                label: 'X',
+                href: 'https://twitter.com/azukimochi25',
+              },
+            ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Azukimochi25, Inc. Built with Docusaurus.`,
