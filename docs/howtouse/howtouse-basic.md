@@ -28,4 +28,8 @@ Tool → Modular Avater → LightLimitChanger
 ![window](/img/docs/howtouse/window.png)  
 *基本画面 1.6.2時点のもの
 
+## 詳細解説
+
+各パラメーターの設定は[詳細解説](/docs/discription/disc_param)を御覧ください。
+
 
