@@ -6,6 +6,9 @@ sidebar_position: 1
 
 Light Limit Changer For MA は、Modular Avaterを前提としてアバターに非破壊でライティングの調節アニメーションを追加するツールです。
 
+##### 使用例
+![使用例](/img/docs/intro/example.png)
+
 ## 導入方法
 
 VCCから導入を行います。
@@ -21,3 +24,5 @@ VCCから導入を行います。
 [解説はこちら](/docs/howtouse/howtouse-basic)
 
 ## 更新履歴
+
+[更新履歴はこちら](/docs/changelog)
