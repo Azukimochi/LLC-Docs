@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Ligt Limit Changer',
+  title: 'Light Limit Changer for MA',
   tagline: 'MA前提 アバター明るさ変更ツール',
   url: 'https://azukimochi.github.io/LLC-Docs/',
   baseUrl: '/LLC-Docs/',
