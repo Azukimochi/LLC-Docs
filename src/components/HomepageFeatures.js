@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'MA前提ツール',
-    src: ('/static/img/homepage/figure_break_hammer_fix.png'),
+    image: require('@site/static/img/homepage/figure_break_hammer_fix.png').default,
     description: (
       <>
         Modular Avater併用で非破壊で明るさ調節メニューが追加できる！
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '簡単導入',
-    src: ('/static/img/homepage/computer_manual_woman_fix.png'),
+    image: require('@site/static/img/homepage/computer_manual_woman_fix.png').default,
     description: (
       <>
         ウインドウを開いてアバターをセットして生成ボタンを押すだけ！
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '多機能',
-    src: ('/static/img/homepage/presentation_slide_fukuzatsu.png'),
+    image: require('@site/static/img/homepage/presentation_slide_fukuzatsu.png').default,
     description: (
       <>
         色温度・彩度調節機能（上級者向け）を搭載
@@ -33,11 +33,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({src, title, description}) {
+function Feature({title, image, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={src} className={styles.Image} alt={title} />
+        <img src={image} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
