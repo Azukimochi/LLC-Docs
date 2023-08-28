@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'MA前提ツール',
-    src: ('../../static/img/homepage/figure_break_hammer_fix.png'),
+    src: ('/img/homepage/figure_break_hammer_fix.png'),
     description: (
       <>
         Modular Avater併用で非破壊で明るさ調節メニューが追加できる！
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '簡単導入',
-    src: ('../../static/img/homepage/computer_manual_woman_fix.png'),
+    src: ('/img/homepage/computer_manual_woman_fix.png'),
     description: (
       <>
         ウインドウを開いてアバターをセットして生成ボタンを押すだけ！
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '多機能',
-    src: ('../../static/img/homepage/presentation_slide_fukuzatsu.png'),
+    src: ('/img/homepage/presentation_slide_fukuzatsu.png'),
     description: (
       <>
         色温度・彩度調節機能（上級者向け）を搭載
