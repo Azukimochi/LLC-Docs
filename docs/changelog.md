@@ -7,6 +7,9 @@ sidebar_label: 更新履歴
 
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 
+### 1.6.4
+- アバターに含まれるアニメーションパスにMissingが含まれる場合にエラーが発生するバグの修正
+
 ### 1.6.3
 - Anatawa12's AvaterOptimizer (AAO) 1.3.0以降との併用時にModular Avater の[インストールするメニューがありません。]エラーが表示される問題の修正
 - GUIにGithubリンクのかわりに公式サイトへのリンクを掲載
