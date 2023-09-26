@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+description: Light Limit Changerの上級者向け機能の解説です。
 ---
 
-# 上級者向け機能について
+# 上級者向け機能について(旧バージョン)
 
 **現在この動作の改善を行う改良を行っているため、今後こちらの対応が不要になる可能性があります。**  
 **[更新履歴](/docs/changelog)をご確認ください**
@@ -15,6 +16,7 @@ sidebar_position: 2
 
 ![exsample](/img/docs/discription/exsample.png)
 
+----
 ### 対処法
 
 この現象の回避方法はシェーダーによって異なるため、それぞれの対処法を記載します。

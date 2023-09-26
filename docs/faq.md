@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 sidebar_label: FAQ
+description: こちらのページにない不具合・バグと思わしき動作がありましたら、#Light Limit Changerのタグポストまたは、[作者X](https://twitter.com/azukimochi25)へお気軽にDM・リプをお願いします。
 ---
 
 # よくある質問

@@ -1,11 +1,16 @@
 ---
 sidebar_position: 4
 sidebar_label: 更新履歴
+description: Light Limit Changerの更新履歴の一覧です。Github releasesでも公開しています
 ---
 
 # 更新履歴
 
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
+
+### 1.7.0-alpha.1
+- アバターへの生成方法をコンテキストメニューに変更
+- Non-Destructive Modular Framework(NDMF)へ対応
 
 ### 1.6.4
 - アバターに含まれるアニメーションパスにMissingが含まれる場合にエラーが発生するバグの修正

@@ -1,10 +1,27 @@
 ---
 sidebar_position: 1
+description: Light Limit Changer For MA は、Modular Avaterを前提としてアバターに非破壊でライティングの調節アニメーションを追加するツールです。
+
 ---
 
 # Light Limit Changer
 
 Light Limit Changer For MA は、Modular Avaterを前提としてアバターに非破壊でライティングの調節アニメーションを追加するツールです。
+
+
+----
+### 対応環境
+
+#### LLC 1.6.4 以降  
+
+|条件|前提|最低対応バージョン|
+|:---:|:---|:---:|  
+|必須|Modular Avater|3.2.0|  
+|必須|Non-Destructive Modular Framework|1.0.1|  
+|任意|Liltoon|1.3.7|
+|任意|Poiyomi Tool Shader|8.1|
+|任意|Sunao Shader|1.6.2|
+
 
 ##### 使用例
 ![使用例](/img/docs/intro/example.png)
