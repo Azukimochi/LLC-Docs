@@ -3,7 +3,7 @@ sidebar_position: 0
 description: Light Limit Changerの基本的な使い方について解説しています。
 ---
 
-# 基本的な使い方(アルファ版)
+# 基本的な使い方(1.7.0 Alpha版以降)
 
 インストールから使い方について簡単に説明していきます
 

@@ -12,12 +12,20 @@ Light Limit Changer For MA は、Modular Avaterを前提としてアバターに
 ----
 ### 対応環境
 
-#### LLC 1.6.4 以降  
-
+#### LLC 1.6.4 以前
 |条件|前提|最低対応バージョン|
 |:---:|:---|:---:|  
 |必須|Modular Avater|3.2.0|  
-|必須|Non-Destructive Modular Framework|1.0.1|  
+|任意|Liltoon|1.3.7|
+|任意|Poiyomi Tool Shader|8.1|
+|任意|Sunao Shader|1.6.2|
+
+#### LLC 1.7.0 alpha 以降  
+
+|条件|前提|最低対応バージョン|
+|:---:|:---|:---:|  
+|必須|Modular Avater|NDMF対応バージョン|  
+|必須|Non-Destructive Modular Framework(NDMF)|1.0.1|  
 |任意|Liltoon|1.3.7|
 |任意|Poiyomi Tool Shader|8.1|
 |任意|Sunao Shader|1.6.2|
