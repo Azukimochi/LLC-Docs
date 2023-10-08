@@ -6,7 +6,14 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 
 # 更新履歴
 
+:::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
+:::
+### 1.7.0
+- アバターへの生成方法をコンテキストメニューに変更
+- Non-Destructive Modular Framework(NDMF)へ対応
+- マテリアルの複製機能を追加し、テクスチャの焼き込みなどが不要に
+
 
 ### 1.7.0-alpha.1
 - アバターへの生成方法をコンテキストメニューに変更
