@@ -14,6 +14,10 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 - Non-Destructive Modular Framework(NDMF)へ対応
 - マテリアルの複製機能を追加し、テクスチャの焼き込みなどが不要に
 
+:::caution
+1.6.4以前のバージョンはModular Avater 1.8.0以降との互換性がありません  
+Modular Avater 1.8.0以降をご利用の方は早急のアップデートをお願いします
+:::
 
 ### 1.7.0-alpha.1
 - アバターへの生成方法をコンテキストメニューに変更
