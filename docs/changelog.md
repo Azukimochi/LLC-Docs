@@ -9,6 +9,10 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### 1.7.1
+- 内部パラメーターが二重に生成されていた問題の修正
+- 生成されるPrefabにMenu Installerを追加
+
 ### 1.7.0
 - アバターへの生成方法をコンテキストメニューに変更
 - Non-Destructive Modular Framework(NDMF)へ対応
