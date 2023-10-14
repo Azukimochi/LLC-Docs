@@ -9,6 +9,11 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### 1.7.2
+- オプションにメニュー階層化機能を追加 [設定項目の解説:オプションの設定項目](/docs/discription/disc_param#オプションの設定項目)
+- オプションに除外設定を追加 [基本的な使い方(1.7.0 以降):除外設定について(1.7.2~)](/docs/howtouse/howtouse-basic#除外設定について172)
+- メニューにアイコンを追加
+
 ### 1.7.1
 - 内部パラメーターが二重に生成されていた問題の修正
 - 生成されるPrefabにMenu Installerを追加
