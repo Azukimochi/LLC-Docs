@@ -2,10 +2,11 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
+
 const FeatureList = [
   {
     title: 'MA前提ツール',
-    image: require('@site/static/img/homepage/figure_break_hammer_fix.png').default,
+    image: require('@site/static/img/homepage/thumbnail_1.png').default,
     description: (
       <>
         Modular Avater併用で非破壊で明るさ調節メニューが追加できる！
@@ -13,19 +14,11 @@ const FeatureList = [
     ),
   },
   {
-    title: '簡単導入',
-    image: require('@site/static/img/homepage/computer_manual_woman_fix.png').default,
+    title: '簡単導入・多機能',
+    image: require('@site/static/img/homepage/thumbnail_2.png').default,
     description: (
       <>
         ウインドウを開いてアバターをセットして生成ボタンを押すだけ！
-      </>
-    ),
-  },
-  {
-    title: '多機能',
-    image: require('@site/static/img/homepage/presentation_slide_fukuzatsu.png').default,
-    description: (
-      <>
         色温度・彩度調節機能（上級者向け）を搭載
         写真撮影に最適！
       </>
@@ -35,11 +28,12 @@ const FeatureList = [
 
 function Feature({title, image, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--6')}>
       <div className="text--center">
         <img src={image} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
+        <Spacer size={50}/>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
@@ -59,4 +53,16 @@ export default function HomepageFeatures() {
       </div>
     </section>
   );
+}
+
+export const Spacer = ({ size, horizontal }) => {
+  return (
+    <div
+      style={
+        horizontal
+          ? { width: size, height: 'auto', display: 'inline-block', flexShrink: 0 }
+          : { width: 'auto', height: size, flexShrink: 0  }
+      }
+    />
+  )
 }
