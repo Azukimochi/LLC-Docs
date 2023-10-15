@@ -9,6 +9,12 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+
+### 1.7.3
+- オプションに明るさの下限・上限を分ける設定を追加 [設定項目の解説:オプションの設定項目](/docs/discription/disc_param#オプションの設定項目)
+- アイコンの解像度が低かった問題の修正
+- プレハブの互換性の問題の修正
+
 ### 1.7.2
 - オプションにメニュー階層化機能を追加 [設定項目の解説:オプションの設定項目](/docs/discription/disc_param#オプションの設定項目)
 - オプションに除外設定を追加 [基本的な使い方(1.7.0 以降):除外設定について(1.7.2~)](/docs/howtouse/howtouse-basic#除外設定について172)
