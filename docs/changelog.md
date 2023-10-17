@@ -9,6 +9,10 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+
+### 1.7.5
+- Light設定までControlグループに追加されてしまっていた問題の修正
+
 ### 1.7.4
 - "追加コントロールをグループ化する"が有効になっていない場合にメニューが生成されないバグの修正
 
