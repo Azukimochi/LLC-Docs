@@ -10,6 +10,13 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.7.7 
+- WriteDefault設定の提供
+- Liltoon Liteに対応
+- アニメーション生成の最適化
+- マテリアルの焼き込みに失敗するケースの修正
+- LLC未導入時にPlayモードに入るとコンソールエラーが発生する問題の修正
+
 ### 1.7.6
 - テクスチャの複製の時にキャッシュに失敗していたバグの修正
 
