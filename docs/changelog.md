@@ -10,6 +10,12 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.7.8
+- Manual bake機能の追加
+- 下限上限を上書きする機能の無効化ができなかった不具合の修正
+- 同期(Sync) レイヤーのアニメーションのクローンに失敗していた不具合の修正
+- アセンブリ定義の依存をGUIDから名前に変更
+
 ### 1.7.7 
 - WriteDefault設定の提供
 - Liltoon Liteに対応
