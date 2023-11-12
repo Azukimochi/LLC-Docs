@@ -10,6 +10,10 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.7.9
+- 誤ってHDRテクスチャとして扱い、ベイク後の色合いが違っていた不具合の修正
+- ミップマップが正しく動作するように修正
+
 ### 1.7.8
 - Manual bake機能の追加
 - 下限上限を上書きする機能の無効化ができなかった不具合の修正
