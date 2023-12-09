@@ -38,7 +38,7 @@ description: Light Limit Changerの基本的な使い方、初回生成から設
 <br/>
 
 :::info
-SkiinedMeshRendererオブジェクトを指定することで、制御対象から除外することができます
+SkinnedMeshRendererオブジェクトを指定することで、制御対象から除外することができます
 :::
 
 ![ignore](/img/docs/howtouse/ignore.png)
