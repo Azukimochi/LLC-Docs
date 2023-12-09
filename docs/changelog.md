@@ -10,6 +10,9 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.8.0
+- Unity 2022.3.6f1に対応
+
 ### 1.7.11
 - 明るさの上限と下限を分ける設定を使用している場合に、初期値をそれぞれ設定する機能の追加
 
