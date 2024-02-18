@@ -10,6 +10,10 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.9.0
+- ライトのモノクロ化機能の追加
+- UIの再編
+
 ### 1.8.1
 - lilToonのメインカラー3rdがベイクされない不具合の修正
 - NDMFのエラーレポートに対応し、色温度・彩度の使用時に警告を表示するように
