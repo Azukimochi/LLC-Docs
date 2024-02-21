@@ -10,8 +10,13 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.10.0
+- 追加機能の初期値設定に対応（色温度・彩度・モノクロ化・Unlit）
+- 明るさの下限と上限と分ける設定の順番が逆になっていたのを修正
+- Runtime/LightLimitChangerParameters のパラメーターを定義していた型をstructからclassへ変更
+
 ### 1.9.0
-- ライトのモノクロ化機能の追加
+- ライトのモノクロ化機能の追加(Poiyomi・lilToon・Sunao対応)
 - UIの再編
 
 ### 1.8.1
