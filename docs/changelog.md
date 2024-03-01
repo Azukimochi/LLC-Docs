@@ -10,6 +10,11 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.10.1
+- 英語訳の改良
+- Poiyomi 9.x Betaバージョンに対応
+- Poiyomi 7.3を使用している場合のNDMFエラーレポートを追加
+
 ### 1.10.0
 - 追加機能の初期値設定に対応（色温度・彩度・モノクロ化・Unlit）
 - 明るさの下限と上限と分ける設定の順番が逆になっていたのを修正
