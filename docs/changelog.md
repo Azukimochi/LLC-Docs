@@ -10,6 +10,10 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### 1.10.2
+- 中文（繁体字）の追加
+- 言語選択の表示名をNDMFに準拠
+
 ### 1.10.1
 - 英語訳の改良
 - Poiyomi 9.x Betaバージョンに対応
