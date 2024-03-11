@@ -1,0 +1,92 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-QT38MBWWKD"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/LLC-Docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/LLC-Docs/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "changelog",
+              "path": "/LLC-Docs/docs/changelog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "disc/disc_additional",
+              "path": "/LLC-Docs/docs/disc/disc_additional",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "disc/disc_general",
+              "path": "/LLC-Docs/docs/disc/disc_general",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "disc/disc_param",
+              "path": "/LLC-Docs/docs/disc/disc_param",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "discription/disc_advanced",
+              "path": "/LLC-Docs/docs/discription/disc_advanced",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "discription/disc_param",
+              "path": "/LLC-Docs/docs/discription/disc_param",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "faq",
+              "path": "/LLC-Docs/docs/faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "howtouse/howtouse-basic",
+              "path": "/LLC-Docs/docs/howtouse/howtouse-basic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "howtouse/howtouse-basic-old",
+              "path": "/LLC-Docs/docs/howtouse/howtouse-basic-old",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/LLC-Docs/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/howtouse-basic",
+              "path": "/LLC-Docs/docs/tutorial/howtouse-basic",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/LLC-Docs/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

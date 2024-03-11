@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorial/intro",
+  "id": "tutorial/intro",
+  "isDocsHomePage": false,
+  "title": "Light Limit Changer",
+  "description": "Light Limit Changer For MA は、Modular Avaterを前提としてアバターにライティングの調節アニメーションを追加する非破壊ツールです。",
+  "source": "@site/docs/tutorial/intro.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/intro",
+  "permalink": "/LLC-Docs/docs/tutorial/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Light Limit Changer For MA は、Modular Avaterを前提としてアバターにライティングの調節アニメーションを追加する非破壊ツールです。"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "基本的な使い方",
+    "permalink": "/LLC-Docs/docs/howtouse-basic"
+  }
+}

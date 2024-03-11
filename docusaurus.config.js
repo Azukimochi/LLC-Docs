@@ -1,12 +1,13 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'Light Limit Changer for MA',
   tagline: 'MA前提 アバター明るさ変更ツール',
-  url: 'https://azukimochi.github.io/LLC-Docs/',
+  url: 'https://azukimochi.github.io',
   baseUrl: '/LLC-Docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -14,6 +15,43 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   organizationName: 'Azukimochi', // Usually your GitHub org/user name.
   projectName: 'LLC-Docs', // Usually your repo name.
 
+  i18n: {
+    defaultLocale: 'ja',
+    locales: ['ja'],
+  },
+  
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+        toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/docs/changelog',
+            from: '/docs/oldDoc',
+          },
+          // Redirect from multiple old paths to the new path
+          {
+            to: '/docs/changelog',
+            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+          },
+        ],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/community')) {
+            // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
+            return [
+              existingPath.replace('/community', '/docs/team'),
+              existingPath.replace('/community', '/docs/support'),
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -23,6 +61,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+        },
+        gtag: {
+          trackingID: 'G-QT38MBWWKD',
+          anonymizeIP: true,
         },
         blog: {
           showReadingTime: true,
@@ -40,10 +82,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      gtag: {
-        trackingID: 'G-QT38MBWWKD',
-        anonymizeIP: true,
-      },
+
       navbar: {
         title: 'Light Limit Changer',
         //logo: {

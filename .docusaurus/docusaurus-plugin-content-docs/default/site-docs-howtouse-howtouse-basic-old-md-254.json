@@ -1,0 +1,28 @@
+{
+  "id": "howtouse/howtouse-basic-old",
+  "title": "基本的な使い方(1.6.4以前)",
+  "description": "Light Limit Changerの基本的な使い方についての解説の旧バージョンのものです。",
+  "source": "@site/docs/howtouse/howtouse-basic-old.md",
+  "sourceDirName": "howtouse",
+  "slug": "/howtouse/howtouse-basic-old",
+  "permalink": "/LLC-Docs/docs/howtouse/howtouse-basic-old",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/howtouse/howtouse-basic-old.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Light Limit Changerの基本的な使い方についての解説の旧バージョンのものです。"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "基本的な使い方(1.7.0 以降)",
+    "permalink": "/LLC-Docs/docs/howtouse/howtouse-basic"
+  },
+  "next": {
+    "title": "設定項目の解説",
+    "permalink": "/LLC-Docs/docs/discription/disc_param"
+  }
+}

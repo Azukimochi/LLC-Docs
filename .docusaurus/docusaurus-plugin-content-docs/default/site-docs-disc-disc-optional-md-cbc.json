@@ -1,0 +1,24 @@
+{
+  "unversionedId": "disc/disc_optional",
+  "id": "disc/disc_optional",
+  "isDocsHomePage": false,
+  "title": "disc_optional",
+  "description": "",
+  "source": "@site/docs/disc/disc_optional.md",
+  "sourceDirName": "disc",
+  "slug": "/disc/disc_optional",
+  "permalink": "/LLC-Docs/docs/disc/disc_optional",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/disc/disc_optional.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "disc_general",
+    "permalink": "/LLC-Docs/docs/disc/disc_general"
+  },
+  "next": {
+    "title": "更新履歴",
+    "permalink": "/LLC-Docs/docs/changelog"
+  }
+}

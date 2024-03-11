@@ -1,0 +1,28 @@
+{
+  "id": "discription/disc_advanced",
+  "title": "上級者向け機能について(1.6.4以前)",
+  "description": "Light Limit Changerの上級者向け機能の解説です。",
+  "source": "@site/docs/discription/disc_advanced.md",
+  "sourceDirName": "discription",
+  "slug": "/discription/disc_advanced",
+  "permalink": "/LLC-Docs/docs/discription/disc_advanced",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/discription/disc_advanced.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Light Limit Changerの上級者向け機能の解説です。"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "設定項目の解説",
+    "permalink": "/LLC-Docs/docs/discription/disc_param"
+  },
+  "next": {
+    "title": "更新履歴",
+    "permalink": "/LLC-Docs/docs/changelog"
+  }
+}

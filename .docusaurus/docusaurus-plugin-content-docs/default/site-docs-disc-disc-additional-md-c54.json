@@ -1,0 +1,24 @@
+{
+  "id": "disc/disc_additional",
+  "title": "disc_additional",
+  "description": "",
+  "source": "@site/docs/disc/disc_additional.md",
+  "sourceDirName": "disc",
+  "slug": "/disc/disc_additional",
+  "permalink": "/LLC-Docs/docs/disc/disc_additional",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/disc/disc_additional.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "設定項目の解説",
+    "permalink": "/LLC-Docs/docs/disc/disc_param"
+  },
+  "next": {
+    "title": "disc_general",
+    "permalink": "/LLC-Docs/docs/disc/disc_general"
+  }
+}

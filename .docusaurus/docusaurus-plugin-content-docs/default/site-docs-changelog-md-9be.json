@@ -1,0 +1,29 @@
+{
+  "id": "changelog",
+  "title": "更新履歴",
+  "description": "Light Limit Changerの更新履歴の一覧です。Github releasesでも公開しています",
+  "source": "@site/docs/changelog.md",
+  "sourceDirName": ".",
+  "slug": "/changelog",
+  "permalink": "/LLC-Docs/docs/changelog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/changelog.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "sidebar_label": "更新履歴",
+    "description": "Light Limit Changerの更新履歴の一覧です。Github releasesでも公開しています"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "上級者向け機能について(1.6.4以前)",
+    "permalink": "/LLC-Docs/docs/discription/disc_advanced"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/LLC-Docs/docs/faq"
+  }
+}
