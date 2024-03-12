@@ -30,7 +30,7 @@ const darkCodeTheme = themes.dracula;
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: 'docs/tutorial/howtouse-basic',
+            to: '/docs/tutorial/howtouse-basic',
             from: ['/docs/howtouse/howtouse-basic','/docs/howtouse/howtouse-basic-old']
           },
           // Redirect from multiple old paths to the new path
