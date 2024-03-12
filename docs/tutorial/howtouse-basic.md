@@ -25,7 +25,7 @@ VCCに登録後、導入したいプロジェクトのManageProjectを開き、L
 <br/>
 ![toolver](/img/docs/howtouse/init.png)
 
-アバターをエミューレーターまたはアップロードをしてエクスプレッションメニュー内に「Light Limit Changer」メニューが増えているのをご確認ください。
+アバターをエミューレーターで実行またはアップロードをし、エクスプレッションメニュー内に「Light Limit Changer」メニューが増えているのをご確認ください。
 
 ----
 ## 設定の変更方法  

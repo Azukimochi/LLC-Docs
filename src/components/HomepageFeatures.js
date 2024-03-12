@@ -9,7 +9,7 @@ const FeatureList = [
     image: require('@site/static/img/homepage/thumbnail_1.png').default,
     description: (
       <>
-        Modular Avater併用で非破壊で明るさ調節メニューが追加できる！
+        Modular Avatar併用で非破壊で明るさ調節メニューが追加できる！
       </>
     ),
   },
