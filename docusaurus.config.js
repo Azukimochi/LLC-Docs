@@ -30,13 +30,13 @@ const darkCodeTheme = themes.dracula;
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: '/docs/changelog',
-            from: '/docs/oldDoc',
+            to: 'docs/tutorial/howtouse-basic',
+            from: ['/docs/howtouse/howtouse-basic','/docs/howtouse/howtouse-basic-old']
           },
           // Redirect from multiple old paths to the new path
           {
-            to: '/docs/changelog',
-            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+            to: '/docs/discription/disc_param',
+            from: '/docs/discription/disc_advanced'
           },
         ],
         createRedirects(existingPath) {
@@ -101,6 +101,11 @@ const darkCodeTheme = themes.dracula;
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://mochis-factory.booth.pm/items/4864776',
+            label: 'Booth',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -118,6 +123,10 @@ const darkCodeTheme = themes.dracula;
           {
             title: 'リンク',
             items: [
+              {
+                label: 'Booth',
+                href: 'https://mochis-factory.booth.pm/items/4864776'
+              },
               {
                 label: 'Github',
                 href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
