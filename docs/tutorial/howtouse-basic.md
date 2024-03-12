@@ -20,7 +20,7 @@ VCCに登録後、導入したいプロジェクトのManageProjectを開き、L
 ![Vcc](/img/docs/intro/vcc_1.png)
 
 ### アバターへのLight Limit Changerの導入
-導入したいアバターを右クリック → Modular Avater → Light Limit Changer を押します。  
+導入したいアバターを右クリック → Modular Avatar → Light Limit Changer を押します。  
 アバター内部にLight Limit Changerオブジェクトが生成されるので、導入完了です。  
 <br/>
 ![toolver](/img/docs/howtouse/init.png)
