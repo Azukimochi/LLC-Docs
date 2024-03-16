@@ -10,6 +10,11 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### [v1.11.0-rc.0] '24.3.16
+- MA Information (NDMF ParameterProvider)に対応
+- 生成するAnimater LayerをDirectBlendTreeへ変更
+- Unityのバージョン定義を追加
+
 ### [v1.10.2] '24.3.10
 - 中文（繁体字）の追加
 - 言語選択の表示名をNDMFに準拠
