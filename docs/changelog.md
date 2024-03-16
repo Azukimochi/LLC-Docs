@@ -9,6 +9,8 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v1.11.0-rc.1] '24.3.16
+- NDMFのバージョン指定の不具合を修正
 
 ### [v1.11.0-rc.0] '24.3.16
 - MA Information (NDMF ParameterProvider)に対応
