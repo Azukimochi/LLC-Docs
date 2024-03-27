@@ -9,6 +9,19 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v1.11.0] '24.3.28
+- **設定をPrefabに上書きするする機能を追加**
+- **設定をプロジェクトを超えて共有する機能を追加**
+- **ドキュメントへのリンクを追加**
+- **MA Information (NDMF ParameterProvider)に対応**
+- **生成するAnimater LayerをDirectBlendTreeへ変更**
+- **標準設定でPoiyomiシェーダーが動かなかったのを修正**
+- AudioClipのクローンをしないように
+- 削除したLight Limit ChangerのPrefabが正しく再生成されるように
+- 公式ドキュメントトップページのリンクを更新履歴のリンクへ変更
+- NDMFのバージョン指定の不具合を修正
+- Unityのバージョン定義を追加
+- 追加されたローカライズの中文（繁体字）に対応
 ### [v1.11.0-rc.2] '24.3.19
 
 - **設定をPrefabに上書きするする機能を追加**
