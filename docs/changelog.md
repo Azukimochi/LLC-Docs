@@ -9,12 +9,17 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+
+### [v1.11.2] '24.4.5
+- **設定をPrefabに上書きする機能によりPrefabが初期化されるバグの修正**
+- アニメーション対象が存在しない場合にエラーが発生するのを修正
+
 ### [v1.11.1] '24.3.28
 - Unity 2019で動かない問題の修正
 - リンクの誤字を修正
 
 ### [v1.11.0] '24.3.28
-- **設定をPrefabに上書きするする機能を追加**
+- **設定をPrefabに上書きする機能を追加**
 - **設定をプロジェクトを超えて共有する機能を追加**
 - **ドキュメントへのリンクを追加**
 - **MA Information (NDMF ParameterProvider)に対応**
@@ -29,7 +34,7 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 
 ### [v1.11.0-rc.2] '24.3.19
 
-- **設定をPrefabに上書きするする機能を追加**
+- **設定をPrefabに上書きする機能を追加**
 - **設定をプロジェクトを超えて共有する機能を追加**
 - **ドキュメントへのリンクを追加**
 - AudioClipのクローンをしないように
