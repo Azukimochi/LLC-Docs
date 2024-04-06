@@ -9,6 +9,9 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v1.11.3] '24.4.6
+- 一つのメッシュにPoiyomiとlilToonのマテリアルを併用したときにガンマ値と明度も変更されてしまう不具合の修正
+- 追加されたローカライズの中文（繁体字）に対応
 
 ### [v1.11.2] '24.4.5
 - **設定をPrefabに上書きする機能によりPrefabが初期化されるバグの修正**
