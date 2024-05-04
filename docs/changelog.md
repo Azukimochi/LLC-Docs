@@ -9,6 +9,8 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v1.11.5] '24.5.4
+- アバターにLight Limit ChangerのPrefabがない場合にエラーが発生するのを修正
 
 ### [v1.11.4] '24.5.4
 - Quest向けにアニメーション対象が存在しない場合にもパラメーターの追加を行うように
