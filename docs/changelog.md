@@ -10,6 +10,9 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
 
+### [v1.12.2] '24.5.22 {#1.12.2}
+- 特定条件下でObjectRegistry原因のエラーが発生するため、一旦実装を見送り
+- Package.jsonにALCOMユーザー向けのドキュメントサイト・更新履歴へのリンクを追加
 
 ### [v1.12.1] '24.5.22 {#1.12.1}
 - テクスチャが設定されていないマテリアルのベイク時にエラーが発生するのを修正
