@@ -19,10 +19,11 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 
 ### [v1.12.0] '24.5.21 {#1.12.0}
 - 古いGUIをメニューから削除
-- 導入方法の右クリックコンテクストメニューを変更
-  Old : Modular Avatar-Light Limit Changer
-  New : Light Limit Changer-Setup
-
+- 導入方法の右クリックコンテクストメニューを変更  
+:::note
+  **Old** : Modular Avatar → Light Limit Changer  
+  **New** : Light Limit Changer → Setup  
+:::
 ### [v1.11.6] '24.5.17 {#1.11.6}
 - マテリアル変更アニメーションのパスがRenderer*の場合にベイクが行われないのを修正
 - アバタールートにコントローラーがある場合に正常にベイクが行われないことがあるのを修正

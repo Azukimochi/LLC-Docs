@@ -17,9 +17,23 @@ VCC:VRChat Creater Companionから導入を行います。
 :::
 VCCに登録後、導入したいプロジェクトのManageProjectを開き、Light Limit Changerの＋ボタンをクリックしてください
 
-![Vcc](/img/docs/intro/vcc_1.png)
+![Vcc](/img/docs/intro/vcc_1.png) 
 
-### アバターへのLight Limit Changerの導入
+----
+### アバターへのLight Limit Changerの導入(1.12.0以降)
+
+:::warning
+Modular Avatar 1.9.13より、メニューの配置が変更されたため  
+Light Limit Changerの導入方法が変更されています
+:::
+
+導入したいアバターを右クリック → Light Limit Changer → Setup を押します。
+アバター内部にLight Limit Changerオブジェクトが生成されるので、導入完了です。  
+<br/>
+![toolver_new](/img/docs/howtouse/init_new.png)
+
+----
+### アバターへのLight Limit Changerの導入(1.11.6以前)
 導入したいアバターを右クリック → Modular Avatar → Light Limit Changer を押します。  
 アバター内部にLight Limit Changerオブジェクトが生成されるので、導入完了です。  
 <br/>
