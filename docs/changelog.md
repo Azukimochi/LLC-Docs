@@ -9,6 +9,12 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v1.13.0] '24.7.8 {#1.13.0}
+- テクスチャの焼き込み方法を大幅に変更
+- ObjectRegistryへの追加を実装 by @anatawa12 
+- ExMenuをローカライズ化
+- Unity 2019でSetupのメニューが表示されないのを修正
+- エミッションの調節機能の追加 (lilToon のみ)
 
 ### [v1.12.3] '24.6.1 {#1.12.3}
 - 色温度の設定値を50%以上にしたときにlilToon ファーシェーダーが透明になってしまう場合がある不具合の修正
