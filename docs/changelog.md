@@ -9,6 +9,15 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+
+### [v1.13.1] '24.8.11 {#1.13.1}
+- ”初期の上限と下限を上書きする”の機能を使用しない場合に、明るさの上限/下限値を設定値ではなくマテリアル規定値を使用してしまう不具合の修正
+- Poiyomiシェーダーのロックが掛かっているマテリアルにも焼き込みを行えるように
+- 中文（簡体）のローカライズの追加
+- Poiyomiの明るさの上限制御に、リアルタイムライトから受ける光量パラメーター(_LightingAdditiveLimit)を追加
+- Poiyomiのモノクロ化の制御に、リアルタイムライトから受ける光量パラメーター(_LightingAdditiveMonochromatic)を追加
+- 明るさの上限と下限を上書きするオプションを使用時、誤ったパラメーターを参照してアニメーションを生成していたのを修正
+
 ### [v1.13.0] '24.7.8 {#1.13.0}
 - テクスチャの焼き込み方法を大幅に変更
 - ObjectRegistryへの追加を実装 by @anatawa12 
