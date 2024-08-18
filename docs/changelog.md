@@ -9,6 +9,8 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v1.13.2] '24.8.18 {#1.13.2}
+- ”初期の上限と下限を上書きする”の機能を使用しない場合の明るさの設定値に誤りがあったのを修正
 
 ### [v1.13.1] '24.8.11 {#1.13.1}
 - ”初期の上限と下限を上書きする”の機能を使用しない場合に、明るさの上限/下限値を設定値ではなくマテリアル規定値を使用してしまう不具合の修正
