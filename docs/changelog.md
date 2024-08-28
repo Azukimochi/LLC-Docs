@@ -9,6 +9,11 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v1.14.0] '24.8.28 {#1.14.0}
+- 韓国語(ko-KR)のローカライズを追加
+- LLCがオフのとき、モノクロ化の数値が0に設定されてしまっていたのを修正
+- 明るさの上限と下限の上書きの計算値を修正
+
 ### [v1.13.2] '24.8.18 {#1.13.2}
 - ”初期の上限と下限を上書きする”の機能を使用しない場合の明るさの設定値に誤りがあったのを修正
 
