@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 sidebar_label: このサイトについて
 description: このWebサイトについての注意事項などのページです
 ---

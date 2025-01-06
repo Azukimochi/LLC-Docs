@@ -28,18 +28,46 @@ const darkCodeTheme = themes.dracula;
         fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
         toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
         redirects: [
+
+          // /docs/discription -> /docs/v1/discription
+
+          {
+            to: '/docs/v1/discription/disc_additional',
+            from: ['/docs/discription/disc_additional']
+          },
+          {
+            to: '/docs/v1/discription/disc_general',
+            from: ['/docs/discription/disc_general']
+          },
+          {
+            to: '/docs/v1/discription/disc_optional',
+            from: ['/docs/discription/disc_optional']
+          },
+          {
+            to: '/docs/v1/discription/disc_param',
+            from: ['/docs/discription/disc_param']
+          },
+
+          // /docs/tutorial -> /docs/v1/tutorial
+          {
+            to: '/docs/v1/tutorial/howtouse-basic',
+            from: ['/docs/tutorial/howtouse-basic']
+          },
+          {
+            to: '/docs/v1/tutorial/howtouse-recommend',
+            from: ['/docs/tutorial/howtouse-recommend']
+          },
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: '/docs/tutorial/howtouse-basic',
+            to: '/docs/v1/tutorial/howtouse-basic',
             from: ['/docs/howtouse/howtouse-basic']
           },
           {
-            to: '/docs/tutorial/howtouse-basic',
+            to: '/docs/v1/tutorial/howtouse-basic',
             from: ['/docs/howtouse/howtouse-basic-old']
           },
-          // Redirect from multiple old paths to the new path
           {
-            to: '/docs/discription/disc_param',
+            to: '/docs/v1/discription/disc_param',
             from: '/docs/discription/disc_advanced'
           },
         ],
@@ -101,11 +129,6 @@ const darkCodeTheme = themes.dracula;
             label: '説明書',
           },
           {
-            href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
             href: 'https://mochis-factory.booth.pm/items/4864776',
             label: 'Booth',
             position: 'right',
@@ -130,10 +153,6 @@ const darkCodeTheme = themes.dracula;
               {
                 label: 'Booth',
                 href: 'https://mochis-factory.booth.pm/items/4864776'
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/Azukimochi/LightLimitChangerForMA',
               },
               {
                 label: 'X',

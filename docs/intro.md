@@ -8,20 +8,29 @@ description: Light Limit Changer For MA は、Modular Avatarを前提として�
 
 Light Limit Changer For MA は、Modular Avatarを前提としてアバターに非破壊でライティングの調節アニメーションを追加するツールです。
 
+v2.0.0からは有償化し、多機能化しました。  
+v1.x.xは引き続き無償で提供を継続いたしますが、サポートは限定的なものとなりますのでご了承ください。
+
+### サポート用Discord
+
+不明点やバグ・動作報告などがあれば
+[もち屋の実家サポートDiscordサーバー](https://discord.com/invite/aR383QA3nf)へお問い合わせをお願いします。
+
 #### 使用例
 ![使用例](/img/docs/intro/example.png)
 
 ----
 ## Modular Avatar & NDMF 前提 対応環境
 
+:::caution
+**LLC v2.0.0以降はUnity 2022.3.6f1以降にのみ対応しています。**
+:::
+
 :::tip
 **LLC 1.8.0 以降 Unity 2022.3.6f1対応**  
 引き続き、Unity2019でもお使いいただけます。
 :::
 <br/>
-:::info
-**LLC 1.7.0 以降 NDMFが必要になりました。**
-:::
 
 |条件|前提|最低対応バージョン|
 |:---:|:---|:---:|  
@@ -31,18 +40,14 @@ Light Limit Changer For MA は、Modular Avatarを前提としてアバターに
 |任意|Poiyomi Tool Shader|8.1|
 |任意|Sunao Shader|1.6.2|
 
-:::caution
-#### LLC 1.6.4 以前
+## v2.0.0 以降の使い方
+
+:::info
+[解説はこちら](/docs/v2/v2-tutorial/howtouse-basic)
 :::
 
-|条件|前提|最低対応バージョン|
-|:---:|:---|:---:|  
-|必須|Modular Avatar|1.7.7以前|  
-|任意|lilToon|1.3.7|
-|任意|Poiyomi Tool Shader|8.1|
-|任意|Sunao Shader|1.6.2|
 
-## 使い方
+## v1.x.x の使い方
 
 :::info
 [解説はこちら](/docs/tutorial/howtouse-basic)

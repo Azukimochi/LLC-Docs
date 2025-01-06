@@ -18,8 +18,7 @@ const FeatureList = [
     image: require('@site/static/img/homepage/thumbnail_2.png').default,
     description: (
       <>
-        ウインドウを開いてアバターをセットして生成ボタンを押すだけ！
-        色温度・彩度調節機能・モノクロ化機能を搭載
+        色温度・彩度調節機能・モノクロ化機能など多機能
         写真撮影に最適！
       </>
     ),
