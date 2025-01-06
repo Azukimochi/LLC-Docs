@@ -31,15 +31,15 @@ LLC4MAでは、各機能にFloatパラメーターを多用しています。
 ||Unlit|float|8|
 
 :::tip
-[**一般設定の解説**](/docs/discription/disc_general)  
+[**一般設定の解説**](/docs/v1/discription/disc_general)  
 一般設定は、基本的なアバターの明るさの制御についての設定がまとまっています。  
 :::
 :::tip
-[**追加設定の解説**](/docs/discription/disc_additional)  
+[**追加設定の解説**](/docs/v1/discription/disc_additional)  
 追加設定は、アバターの色や、ライティングからの影響を制御する設定がまとまっています。
 :::
 :::tip
-[**オプション設定の解説**](/docs/discription/disc_optional)  
+[**オプション設定の解説**](/docs/v1/discription/disc_optional)  
 オプション設定は、一部ケースで使用する可能性がある設定がまとまっています。
 :::
 ----

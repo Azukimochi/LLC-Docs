@@ -50,7 +50,7 @@ v1.x.xは引き続き無償で提供を継続いたしますが、サポート�
 ## v1.x.x の使い方
 
 :::info
-[解説はこちら](/docs/tutorial/howtouse-basic)
+[解説はこちら](/docs/v1/tutorial/howtouse-basic)
 :::
 
 ## 更新履歴
