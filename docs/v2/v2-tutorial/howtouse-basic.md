@@ -13,8 +13,14 @@ description: Light Limit Changer v2.0.0の基本的な使い方、初回生成�
 導入したいアバターを右クリック → Light Limit Changer → Setup を押します。  
 アバター内部にLight Limit Changerオブジェクトが生成されるので、導入完了です。  
 
-![toolver_new](/img/docs/v2/howtouse/install.png)
+![install](/img/docs/v2/howtouse/install.png)
 
+### プリセットを導入する場合
+
+導入したいアバターを右クリック → Light Limit Changer → preset から追加したプリセット名を押します。  
+アバター内部にLight Limit Changerオブジェクトが生成されるので、導入完了です。  
+
+![install-preset](/img/docs/v2/howtouse/install-preset.png)
 ----
 ## 設定の変更方法  
 アバターの中に生成されたLight Limit Changer プレハブのインスペクターから設定を変更します。
@@ -28,6 +34,3 @@ description: Light Limit Changer v2.0.0の基本的な使い方、初回生成�
 各パラメーターの設定は**解説モード**を御覧ください。
 :::
 ![descriptionmode](/img/docs/v2/howtouse/description_mode.png)
-
-
-
