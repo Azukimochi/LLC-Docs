@@ -65,4 +65,4 @@ UIはLihgt Limit Changer for MA 2.0.0 rc-2のものです
 
 ### プリセット
 
-プリセット機能の詳細は、[こちら](/docs/v2/v2-discription/disc_preset)をご覧ください
+プリセット機能の詳細は、[こちら](/docs/v2/v2-discription/tips/disc_preset)をご覧ください

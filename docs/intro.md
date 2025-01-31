@@ -16,8 +16,45 @@ v1.x.xは引き続き無償で提供を継続いたしますが、サポート�
 不明点やバグ・動作報告などがあれば
 [もち屋の実家サポートDiscordサーバー](https://discord.com/invite/aR383QA3nf)へお問い合わせをお願いします。
 
-#### 使用例
-![使用例](/img/docs/intro/example.png)
+----
+## Light Limit Changer v1とv2の比較
+
+#### ライティング機能
+|機能|v1.x.x 無料版|v2.x.x 有償版|
+|:---|:---:|:---:|  
+|対応シェーダー|lilToon・Poiyomi・**Sunao**|lilToon・Poiyomi・**UnlitWF**|
+|最大消費パラメーター数|49|16 *|
+|明るさの上限・下限|◯|◯|
+|モノクロ化|◯|◯|
+|Unlit|◯|◯|
+|エミッション機能|◯|◯|
+|光源の向き||◯|
+|色相||◯|
+|彩度|◯|◯|
+|明度||◯|
+|ガンマ||◯|
+|色温度|◯|◯|
+|影環境強度(lilToon)||◯|
+|頂点ライト強度(lilToon)||◯|
+|距離フェード(lilToon)||◯|
+|逆光ライト(lilToon)||◯|
+|明るさの上限のAddPass分離(Poiyomi)||◯|
+|ライトのモノクロ化のAddPass分離(Poiyomi)||◯|
+|PP Animation(Poiyomi)||◯|
+
+*パラメーター圧縮機能を使った場合  
+:::info
+[シェーダー機能の解説はこちら](/docs/v2/v2-discription/disc_feature)
+:::
+#### オプション機能
+|機能|v1.x.x 無料版|v2.x.x 有償版|
+|:---|:---:|:---:|  
+|処理除外機能|◯|◯|
+|パラメーター圧縮機能||◯|
+|消費VRAM低減機能||◯|
+|プリセット機能|◯|◯|
+|動的プリセット機能||◯|
+|Anchor Override/Bounds統一機能||◯|
 
 ----
 ## Modular Avatar & NDMF 前提 対応環境

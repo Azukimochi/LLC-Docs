@@ -1,3 +1,4 @@
 /node_modules
 /.idea
 /.docusaurus/docusaurus-plugin-content-docs
+/build
