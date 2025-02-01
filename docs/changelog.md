@@ -9,6 +9,9 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+### [v2.0.0] '25.2.1 {#2.0.0}
+- 正式版初期リリース
+
 ### [v1.14.2] '24.9.29 {#1.14.2}
 - 韓国語訳の修正
 - メッシュにMissingのマテリアルが含まれているとエラーが発生するのを修正
