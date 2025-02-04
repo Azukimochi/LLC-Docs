@@ -13,7 +13,7 @@ UIはLihgt Limit Changer for MA 1.10.2のものです
 :::note
 *LLC4MA : Light Limit Changer for MA
 :::
-![dicsA](/img/docs/discription/disc_llcui.png)
+![dicsA](/img/docs/description/disc_llcui.png)
 
 ## オプション設定の各解説
 ----
@@ -25,7 +25,7 @@ UIはLihgt Limit Changer for MA 1.10.2のものです
 :::warning
 例の画像では意図的に下限と上限値を変更しています。
 :::
-![dicsA](/img/docs/discription/disc_override.webp)
+![dicsA](/img/docs/description/disc_override.webp)
 
 ### 対象シェーダー(lilToon・Poiyomi・Sunao)
 LLC4MAの処理対象のシェーダーを選択することができます。  

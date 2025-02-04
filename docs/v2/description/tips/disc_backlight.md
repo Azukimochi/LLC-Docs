@@ -14,7 +14,7 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 
 もし、この逆光ライトのマスク画像を作るのが面倒な場合は、すでに輪郭線に割り当てられているマスク画像を流用することで、大体いい感じになることが多いです。  
 
-![objectName](/img/docs/v2/discription/tips/v2-tips-backlightmask.png)
+![objectName](/img/docs/v2/description/tips/v2-tips-backlightmask.png)
 
 ### 逆光ライトの簡単な使い方
 

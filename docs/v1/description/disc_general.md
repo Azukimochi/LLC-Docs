@@ -13,7 +13,7 @@ UIはLihgt Limit Changer for MA 1.10.2のものです
 :::note
 *LLC4MA : Light Limit Changer for MA
 :::
-![dicsA](/img/docs/discription/disc_llcui.png)
+![dicsA](/img/docs/description/disc_llcui.png)
 
 ## 一般設定の各解説
 ----
@@ -27,7 +27,7 @@ UIはLihgt Limit Changer for MA 1.10.2のものです
 ### 明るさの上限と下限を別々に設定する(ON・OFF)
 明るさの上限と下限を別々に制御するための設定です。  
 オンにすると【個別の初期値設定】が有効になり、明るさの制御メニューが[Max Light][Min Light]に細分化されます。
-![dicsA](/img/docs/discription/disc_light.webp)
+![dicsA](/img/docs/description/disc_light.webp)
 
 ### 明るさの上限(0-10)
 **[Light]** または **[Max Light][Min Light]** の100%位置での明るさです。   

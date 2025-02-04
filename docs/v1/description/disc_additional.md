@@ -14,7 +14,7 @@ UIはLihgt Limit Changer for MA 1.10.2のものです
 :::note
 *LLC4MA : Light Limit Changer for MA
 :::
-![dicsA](/img/docs/discription/disc_llcui.png)
+![dicsA](/img/docs/description/disc_llcui.png)
 
 ## 追加設定の各解説
 ----
@@ -28,14 +28,14 @@ UIはLihgt Limit Changer for MA 1.10.2のものです
 :::tip
 テクスチャメモリの増加は、[TexTransTool](https://ttt.rs64.net/)を使ってアトラス化を行うことで軽減できる可能性があります。
 :::
-![dicsTemp](/img/docs/discription/disc_temp.webp)
+![dicsTemp](/img/docs/description/disc_temp.webp)
 
 ### 彩度調整を有効にする(ON・OFF *通常色50%)
 シェーダーの彩度のパラメーターを制御することで、色味の強度の変更を可能にします。
 :::warning
 この機能も、彩度のパラメーターを変更している場合には[色温度調節]と同様に焼き込み処理を行います。
 :::
-![dicsSatu](/img/docs/discription/disc_satu.webp)
+![dicsSatu](/img/docs/description/disc_satu.webp)
 
 ### ライトのモノクロ化調整を有効にする(ON・OFF)
 シェーダーの光源からの光をモノクロ化するパラメーターを制御します。  
@@ -44,7 +44,7 @@ UIはLihgt Limit Changer for MA 1.10.2のものです
 光の色味を濾し取った光を受け取る機能です。  
 Unlitとは違い、暗めの光源からはしっかり暗く、明るめの光源からはしっかり明るくなります。
 :::
-![dicsMono](/img/docs/discription/disc_mono.webp)
+![dicsMono](/img/docs/description/disc_mono.webp)
 
 ### Unlit調整を有効にする(ON・OFF)
 シェーダーのUnlightingというパラメーターを制御します。  
@@ -52,7 +52,7 @@ Unlitとは違い、暗めの光源からはしっかり暗く、明るめの光
 :::tip
 モノクロ化とは違い、暗い・明るいを問わずワールドの明るさを無視した一定の明るさになります。
 :::
-![dicsUnlit](/img/docs/discription/disc_unlit.webp)
+![dicsUnlit](/img/docs/description/disc_unlit.webp)
 
 ### リセットボタンを追加する(ON・OFF)
 すべての設定値を初期値にリセットするボタンを追加します。
@@ -63,7 +63,7 @@ Unlitとは違い、暗めの光源からはしっかり暗く、明るめの光
 
 ### 追加コントロールをグループ化する(ON・OFF)
 追加設定の各種調節機能を階層化することで、メニューが操作しやすくなる機能です。
-![dicsMenuGroup](/img/docs/discription/disc_menugroup.webp)
+![dicsMenuGroup](/img/docs/description/disc_menugroup.webp)
 
 ### 追加設定の初期値(0-1)
 追加設定の初期値を設定することができます。  

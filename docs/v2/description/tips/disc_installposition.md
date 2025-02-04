@@ -9,4 +9,4 @@ Light Limit Changerのメニュー位置を変えるには、Light Limit Changer
 
 [メニューを選択]ボタンより、任意の挿入位置を設定してください。  
 
-![installposition](/img/docs/v2/discription/tips/v2-tips-installposition.png)
+![installposition](/img/docs/v2/description/tips/v2-tips-installposition.png)

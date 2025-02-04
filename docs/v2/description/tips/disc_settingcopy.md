@@ -17,7 +17,7 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 貼り付け時には、クリップボードに保持されている内容と整合性が取れた場合にのみ貼り付け可能になります。  
 距離フェードの値を逆光ライトに貼り付けようとした場合には押せない状態になります。
 
-![settingscopy](/img/docs/v2/discription/tips/v2-tips-copysettings.png)
+![settingscopy](/img/docs/v2/description/tips/v2-tips-copysettings.png)
 
 ### 主な使い道
 この機能は、フレンド同士で設定値を共有したい場合などにご利用いただけます。  

@@ -11,7 +11,7 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 ### プリセットの追加方法
 
 プリセットタブにある＋ボタンからプリセットオブジェクトの追加と削除が可能です。
-![addpreset](/img/docs/v2/discription/tips/v2-tips-addpresets.png)
+![addpreset](/img/docs/v2/description/tips/v2-tips-addpresets.png)
 
 ### プリセットの設定方法
 
@@ -21,6 +21,6 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 オブジェクトの名前がプリセットの名前になります。  
 
 
-![presetsetting](/img/docs/v2/discription/tips/v2-tips-presetssetting.png)
+![presetsetting](/img/docs/v2/description/tips/v2-tips-presetssetting.png)
 
 

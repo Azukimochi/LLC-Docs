@@ -35,7 +35,7 @@ Light Limit Changerのインスペクター最下にある、「アバターの�
     これによって、着せた服にもともとMA Mesh Settingsが付属しており、体と違う設定がされていた際に生じるズレを防ぐことができます。
 </details>
 
-![meshsettings](/img/docs/v2/discription/tips/v2-tips-meshsettings.png)
+![meshsettings](/img/docs/v2/description/tips/v2-tips-meshsettings.png)
 
 ### EX. シェーダーによる色変更の反映
 

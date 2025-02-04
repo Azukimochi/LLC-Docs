@@ -54,7 +54,7 @@ Prefabを直接編集することで、複数アバターの設定を一括管�
 *基本画面 1.6.4時点のもの
 
 :::info
-各パラメーターの設定は[詳細解説](/docs/v1/discription/disc_param)を御覧ください。
+各パラメーターの設定は[詳細解説](/docs/v1/description/disc_param)を御覧ください。
 :::
 
 

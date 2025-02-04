@@ -25,7 +25,7 @@ Questアバターなどをご利用の場合には、MtoonやUTSなどの非対�
 同じ同階層に同名のオブジェクトがあると片方にパスが通らず、アニメーションが動作しないことが原因です。  
 **名称の被りがないよう、名前の変更をお願いいたします。**  
 
-![objectName](/img/docs/v2/discription/faq/v2-faq-objectname.png)
+![objectName](/img/docs/v2/description/faq/v2-faq-objectname.png)
 
 ### メインカラー2ndにテクスチャがある (lilToonの場合)
 
@@ -33,11 +33,11 @@ Questアバターなどをご利用の場合には、MtoonやUTSなどの非対�
 
 動作するためには、メインカラー2nd/3rdの項目最下にある焼き込みという機能を使うことで、テクスチャを一枚にまとめることができます。  
 この機能を使い、メインカラー2nd/3rdをひとつにまとめることで動作するようになります。
-![objectName](/img/docs/v2/discription/faq/v2-faq-color2nd.png)
+![objectName](/img/docs/v2/description/faq/v2-faq-color2nd.png)
 
 ### lilToonMultiシェーダーが使用されている？ (lilToonの場合)
 
-![lilToonMulti](/img/docs/v2/discription/faq/v2-faq-shaderlilmulti.png)  
+![lilToonMulti](/img/docs/v2/description/faq/v2-faq-shaderlilmulti.png)  
 シェーダー種別がlilToonMultiの場合、lilToonの仕様上明るさを始めとする、逆光ライトなどの機能も正常に動作しません。 
 お手数ですが、lilToonOutlineなどへ変更をお願いします。
 

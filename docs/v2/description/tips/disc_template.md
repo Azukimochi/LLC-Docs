@@ -17,7 +17,7 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 テンプレートは、Light Limit Changerコンポーネント上部の「保存済みの設定」項目から保存が可能です。  
 保存の際、同じ名前で保存することで、既存のテンプレートを上書きすることができます。  
 
-![templatesave](/img/docs/v2/discription/tips/v2-tips-templatesave.png)
+![templatesave](/img/docs/v2/description/tips/v2-tips-templatesave.png)
 
 ### テンプレートの読み込み機能
 
@@ -26,11 +26,11 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 「プリセット適用する」のオプションは、呼び出し時にプリセット機能で追加された下位オブジェクトも一緒に読み込むか選択する機能です。  
 この機能がオンの場合は、読み込み時にLight Limit Changerオブジェクト配下にプリセットオブジェクトも一緒に追加されます。
 
-![templeteload](/img/docs/v2/discription/tips/v2-tips-templateload.png)
+![templeteload](/img/docs/v2/description/tips/v2-tips-templateload.png)
 
 :::tip
 アバターに新規追加する際に、保存済みのテンプレートがある場合にはPresetメニュー配下から追加することができます。  
 このとき、プリセット機能で追加された下位オブジェクトも同時に追加されます。
 :::
-![templateasnew](/img/docs/v2/discription/tips/v2-tips-templateaddnew.png)
+![templateasnew](/img/docs/v2/description/tips/v2-tips-templateaddnew.png)
 

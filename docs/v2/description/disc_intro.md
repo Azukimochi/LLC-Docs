@@ -46,7 +46,7 @@ UIはLihgt Limit Changer for MA 2.0.0 rc-2のものです
 設定可能な項目は以下のとおりです。
 - 機能の有効 / 無効
 
-![dicsMode](/img/docs/v2/discription/v2-disc_basicmode.png)
+![dicsMode](/img/docs/v2/description/v2-disc_basicmode.png)
 
 ### 詳細設定
 :::tip
@@ -54,15 +54,15 @@ UIはLihgt Limit Changer for MA 2.0.0 rc-2のものです
 :::
 
 
-![advanceMode](/img/docs/v2/discription/v2-disc_advancedmode.png)
+![advanceMode](/img/docs/v2/description/v2-disc_advancedmode.png)
 
 ### 解説モード
 :::tip
 解説モードは、詳細設定に加えて各項目の解説が閲覧可能なモードです。  
 本ドキュメントより各バージョンの仕様が正確に記載されています。    
 :::
-![dicsMode](/img/docs/v2/discription/v2-disc_discmode.png)
+![dicsMode](/img/docs/v2/description/v2-disc_discmode.png)
 
 ### プリセット
 
-プリセット機能の詳細は、[こちら](/docs/v2/v2-discription/tips/disc_preset)をご覧ください
+プリセット機能の詳細は、[こちら](/docs/v2/description/tips/disc_preset)をご覧ください
