@@ -79,6 +79,9 @@ const darkCodeTheme = themes.dracula;
               existingPath.replace('/community', '/docs/support'),
             ];
           }
+          if (existingPath.includes('/v2-description')) {
+            return [existingPath.replace('/v2-description', '/v2-discription')];
+          }
           return undefined; // Return a falsy value: no redirect created
         },
       },
