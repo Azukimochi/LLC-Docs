@@ -29,23 +29,23 @@ const darkCodeTheme = themes.dracula;
         toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
         redirects: [
 
-          // /docs/discription -> /docs/v1/discription
+          // /docs/description -> /docs/v1/description
 
           {
-            to: '/docs/v1/discription/disc_additional',
-            from: ['/docs/discription/disc_additional']
+            to: '/docs/v1/description/disc_additional',
+            from: ['/docs/description/disc_additional']
           },
           {
-            to: '/docs/v1/discription/disc_general',
-            from: ['/docs/discription/disc_general']
+            to: '/docs/v1/description/disc_general',
+            from: ['/docs/description/disc_general']
           },
           {
-            to: '/docs/v1/discription/disc_optional',
-            from: ['/docs/discription/disc_optional']
+            to: '/docs/v1/description/disc_optional',
+            from: ['/docs/description/disc_optional']
           },
           {
-            to: '/docs/v1/discription/disc_param',
-            from: ['/docs/discription/disc_param']
+            to: '/docs/v1/description/disc_param',
+            from: ['/docs/description/disc_param']
           },
 
           // /docs/tutorial -> /docs/v1/tutorial
@@ -67,8 +67,8 @@ const darkCodeTheme = themes.dracula;
             from: ['/docs/howtouse/howtouse-basic-old']
           },
           {
-            to: '/docs/v1/discription/disc_param',
-            from: '/docs/discription/disc_advanced'
+            to: '/docs/v1/description/disc_param',
+            from: '/docs/description/disc_advanced'
           },
         ],
         createRedirects(existingPath) {
@@ -77,6 +77,17 @@ const darkCodeTheme = themes.dracula;
             return [
               existingPath.replace('/community', '/docs/team'),
               existingPath.replace('/community', '/docs/support'),
+            ];
+          }
+          if (existingPath.includes('description')) {
+            return [
+              existingPath.replace('description', 'discription'),
+              existingPath.replace('description', 'v2-discription'),
+            ];
+          }
+          if (existingPath.includes('tutorial')) {
+            return [
+              existingPath.replace('tutorial', 'v2-tutorial'),
             ];
           }
           return undefined; // Return a falsy value: no redirect created

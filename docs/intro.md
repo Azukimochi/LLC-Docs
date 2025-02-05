@@ -44,7 +44,7 @@ v1.x.xは引き続き無償で提供を継続いたしますが、サポート�
 
 *パラメーター圧縮機能を使った場合  
 :::info
-[シェーダー機能の解説はこちら](/docs/v2/v2-discription/disc_feature)
+[シェーダー機能の解説はこちら](/docs/v2/description/disc_feature)
 :::
 #### オプション機能
 |機能|v1.x.x 無料版|v2.x.x 有償版|
@@ -80,7 +80,7 @@ v1.x.xは引き続き無償で提供を継続いたしますが、サポート�
 ## v2.0.0 以降の使い方
 
 :::info
-[解説はこちら](/docs/v2/v2-tutorial/howtouse-basic)
+[解説はこちら](/docs/v2/tutorial/howtouse-basic)
 :::
 
 
