@@ -9,6 +9,11 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::info
 更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
 :::
+
+### [v2.0.1] '25.2.4 {#2.0.1}
+- プリセットの「初期値」を選んだ際、カラー選択が初期化されなかったのを修正
+- Unlitが誤ったレンジに設定されていて、10%以上が機能しなかったのを修正
+
 ### [v2.0.0] '25.2.1 {#2.0.0}
 - 正式版初期リリース
 
