@@ -7,8 +7,14 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 # 更新履歴
 
 :::info
-更新履歴は[Github](https://github.com/Azukimochi/LightLimitChangerForMA/releases)及び、[X](https://twitter.com/search?q=from%3Aazukimochi25%20%23LightLimitChanger&src=typed_query&f=live)でも公開しています。
+更新履歴は[もち屋の実家サポートDiscordサーバー](https://discord.com/invite/aR383QA3nf)でも公開しています。
 :::
+
+### [v2.0.3] '25.2.8 {#2.0.3}
+- 一部のlilToonカスタムシェーダーに対応できていなかったのを修正
+
+### [v2.0.2] '25.2.7 {#2.0.2}
+- 非対応シェーダーにもアニメーションを生成してしまっていたのを修正
 
 ### [v2.0.1] '25.2.4 {#2.0.1}
 - プリセットの「初期値」を選んだ際、カラー選択が初期化されなかったのを修正
