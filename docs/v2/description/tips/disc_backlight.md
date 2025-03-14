@@ -12,9 +12,26 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 逆光ライトを使用したとき、鼻先が光ってしまったり、口の中に逆光ライトが落ちたりしてしまうことがあります。  
 これは、逆光ライトのマスクを使用することで、逆光が発生してほしくない部分を指定することで回避することができます。
 
-もし、この逆光ライトのマスク画像を作るのが面倒な場合は、すでに輪郭線に割り当てられているマスク画像を流用することで、大体いい感じになることが多いです。  
+もし、この逆光ライトのマスク画像を作るのが面倒な場合は、すでに輪郭線に割り当てられているマスク画像を流用することで簡易的にこれを防ぐことができます。
+この方法については下の画像を御覧ください。
 
+### Maskの有無の比較  
+
+左：Maskなし　右：Maskあり
+
+![objectName](/img/docs/v2/description/tips/v2-tips-backlight-compare.png)  
+
+Avatar:マヌカ by STUDIO JINGO  
+
+----
+
+### lilToonの場合
 ![objectName](/img/docs/v2/description/tips/v2-tips-backlightmask.png)
+
+----
+
+### Poiyomiの場合
+![backLightMaskPoiyomi](/img/docs/v2/description/tips/v2-tips-backlightmask_poiyomi.png)
 
 ### 逆光ライトの簡単な使い方
 
