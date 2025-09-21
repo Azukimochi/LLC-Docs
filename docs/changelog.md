@@ -14,6 +14,9 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 Light Limit Changer v1.x.xは v1.14.4を持ちまして、サポートを終了しております。
 :::
 
+### [v2.6.1] '25.9.21 {#2.6.1}
+- MA Material Setterで入れ替えるマテリアルが焼き込み処理の対象外だったのを修正
+
 ### [v2.6.0] '25.9.21 {#2.6.0}
 - 光源の向きに上下方向の制御を可能にする詳細モードを追加
 - MA Material Swapで入れ替えるマテリアルが焼き込み処理の対象外だったのを修正
