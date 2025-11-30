@@ -8,7 +8,7 @@ description: Light Limit Changer for MA v2の各機能の解説になります�
 各解説のための概要ページです。
 
 :::info
-UIはLihgt Limit Changer for MA 2.0.0 rc-2のものです
+UIはLight Limit Changer for MA 2.0.0 rc-2のものです
 :::
 :::note
 *LLC4MA : Light Limit Changer for MA
