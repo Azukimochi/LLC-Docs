@@ -72,7 +72,7 @@ v1.x.xは引き続き無償で提供を継続いたしますが、サポート�
 |必須|Modular Avatar|1.12.0|  
 |必須|Non-Destructive Modular Framework(NDMF)|1.7.0|  
 |任意|lilToon|1.3.7|
-|任意|Poiyomi Tool Shader|8.1|
+|任意|Poiyomi Tool Shader|8.1 (9.2.x 推奨)|
 |任意|UnlitWF|2.0.0|
 
 
