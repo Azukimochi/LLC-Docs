@@ -13,6 +13,9 @@ description: Light Limit Changerの更新履歴の一覧です。Github releases
 :::note
 Light Limit Changer v1.x.xは v1.14.4を持ちまして、サポートを終了しております。
 :::
+### [v2.10.0] '26.3.23 {#2.10.0}
+- Poiyomi Pro、Poiyomi 10.xに対応
+- lilToon Gemを使用した際に、エミッションの制御が想定通りに動かなかったのを修正
 
 ### [v2.9.4] '26.1.29 {#2.9.4}
 - Poiyomiシェーダーの透明度が正常に焼きこまれていなかったのを修正
