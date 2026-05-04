@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5.5
 sidebar_label: トラブルシューティング
 description: Light Limit Changerの導入・使用中に発生しやすい問題と解決手順をまとめています。
 ---

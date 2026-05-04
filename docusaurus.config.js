@@ -70,6 +70,10 @@ const darkCodeTheme = themes.dracula;
             to: '/docs/v1/description/disc_param',
             from: '/docs/description/disc_advanced'
           },
+          {
+            to: '/docs/troubleshooting',
+            from: '/docs/v2/description/faq/faq_nonlightchange'
+          },
         ],
         createRedirects(existingPath) {
           if (existingPath.includes('/community')) {
