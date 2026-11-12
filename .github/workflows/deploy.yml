@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  # PR ではビルドだけを実行し、マージ前に失敗を検知する（公開は main への push 時のみ）
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -16,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies
@@ -25,12 +29,18 @@ jobs:
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push'
         with:
           path: build
 
   deploy:
     name: Deploy to GitHub Pages
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
+    # 公開が重ならないよう、デプロイは1つずつ順番に実行する
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     permissions:
       pages: write
       id-token: write
