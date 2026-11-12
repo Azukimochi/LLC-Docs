@@ -80,13 +80,6 @@ const darkCodeTheme = themes.dracula;
           },
         ],
         createRedirects(existingPath) {
-          if (existingPath.includes('/community')) {
-            // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
-            return [
-              existingPath.replace('/community', '/docs/team'),
-              existingPath.replace('/community', '/docs/support'),
-            ];
-          }
           if (existingPath.includes('description')) {
             return [
               existingPath.replace('description', 'discription'),
@@ -130,10 +123,6 @@ const darkCodeTheme = themes.dracula;
 
       navbar: {
         title: 'Light Limit Changer',
-        //logo: {
-        //  alt: 'My Site Logo',
-        //  src: 'img/logo.svg',
-        //},
         items: [
           {
             type: 'doc',
