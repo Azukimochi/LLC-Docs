@@ -7,7 +7,7 @@
 
 ## 必要環境
 
-- Node.js 20 以上（CIでは Node.js 22 を使用）
+- Node.js 20 以上（CI では [.nvmrc](.nvmrc) に書かれたバージョンを使用）
 
 ## セットアップ
 
