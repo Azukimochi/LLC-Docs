@@ -1,33 +1,37 @@
-# Website
+# LLC-Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[Light Limit Changer for MA](https://mochis-factory.booth.pm/items/4864776) の公式ドキュメントサイトです。
+[Docusaurus 3](https://docusaurus.io/) で構築しています。
 
-### Installation
+公開URL: https://azukimochi.github.io/LLC-Docs/
 
-```
-$ yarn
-```
+## 必要環境
 
-### Local Development
+- Node.js 18 以上
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+## セットアップ
 
 ```
-$ yarn build
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
+## ローカル開発
 
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+npm start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+ローカル開発サーバーが起動し、ブラウザが開きます。ほとんどの変更はサーバーを再起動せずに反映されます。
+
+## ビルド
+
+```
+npm run build
+```
+
+`build` ディレクトリに静的ファイルが生成され、任意の静的ホスティングで配信できます。
+
+## デプロイ
+
+`main` ブランチへの push をトリガーに、GitHub Actions（[.github/workflows/deploy.yml](.github/workflows/deploy.yml)）が
+自動でビルドし GitHub Pages へデプロイします。
