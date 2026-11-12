@@ -10,7 +10,11 @@ const darkCodeTheme = themes.dracula;
   url: 'https://azukimochi.github.io',
   baseUrl: '/LLC-Docs/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'Azukimochi', // Usually your GitHub org/user name.
   projectName: 'LLC-Docs', // Usually your repo name.
@@ -106,19 +110,13 @@ const darkCodeTheme = themes.dracula;
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/Azukimochi/LLC-Docs/edit/main/',
         },
         gtag: {
           trackingID: 'G-QT38MBWWKD',
           anonymizeIP: true,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
