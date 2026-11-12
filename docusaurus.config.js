@@ -116,12 +116,7 @@ const darkCodeTheme = themes.dracula;
           trackingID: 'G-QT38MBWWKD',
           anonymizeIP: true,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
