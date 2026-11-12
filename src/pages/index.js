@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Light Limit Changer For MA は、Modular Avaterを前提としてアバターに非破壊でライティングの調節アニメーションを追加するツールです。">
+      description="Light Limit Changer For MA は、Modular Avatarを前提としてアバターに非破壊でライティングの調節アニメーションを追加するツールです。">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
