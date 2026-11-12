@@ -110,8 +110,7 @@ const darkCodeTheme = themes.dracula;
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/Azukimochi/LLC-Docs/edit/main/',
         },
         gtag: {
           trackingID: 'G-QT38MBWWKD',
