@@ -10,7 +10,11 @@ const darkCodeTheme = themes.dracula;
   url: 'https://azukimochi.github.io',
   baseUrl: '/LLC-Docs/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'Azukimochi', // Usually your GitHub org/user name.
   projectName: 'LLC-Docs', // Usually your repo name.
